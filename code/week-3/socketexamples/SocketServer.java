@@ -17,7 +17,9 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 
 public class SocketServer {
@@ -27,11 +29,13 @@ public class SocketServer {
     // create object o count active threads
     ActiveCount threadCount = new ActiveCount();
     System.out.println("Server started .....");
+    Executor pool = Executors.newFixedThreadPool(20);
     while (true) {
       // acept connection and start thread  
       Socket clientSocket = m_ServerSocket.accept();
-      SocketHandlerThread server = new SocketHandlerThread (clientSocket, threadCount);
-      server.start();
+//      SocketHandlerThread server = new SocketHandlerThread (clientSocket, threadCount);
+//      server.start();
+      pool.execute(new SocketHandlerRunnable (clientSocket, threadCount));
      
     }
   }
