@@ -14,7 +14,6 @@ import java.net.Socket;
 public class SocketHandlerRunnable implements Runnable {
   private final Socket conn;
   private boolean running = true;
-
   private final ActiveCount threadCount;
 
   SocketHandlerRunnable(Socket s, ActiveCount threads) {

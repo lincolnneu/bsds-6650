@@ -1,6 +1,5 @@
 package socketexamples;
 
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
@@ -22,6 +21,7 @@ class SocketHandlerThread extends Thread {
     threadCount = threads;
   }
 
+  @Override
   public void run() {
     threadCount.incrementCount();
     System.out.println("Accepted Client: Address - "
@@ -31,9 +31,11 @@ class SocketHandlerThread extends Thread {
       PrintWriter   out = new PrintWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
       
       String clientID = in.readLine();
+      // Uncomment to see what client sent
       System.out.println("Client ID is :" + clientID);
       out.println("Active Server Thread Count = " + Integer.toString( threadCount.getCount() ));
-      out.flush();    
+      out.flush();
+      // Uncomment to ensure reply set
       System.out.println("Reply sent");
       
     } catch (Exception e) {
