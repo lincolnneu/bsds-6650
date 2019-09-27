@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93bf5413-2215-407c-a2ee-6c0f2b41159e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/code/week-3/ActiveCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/week-3/socketexamples/ActiveCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/week-3/SocketClientMultithreaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/week-3/socketexamples/SocketClientMultithreaded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/week-3/SocketClientSingleThreaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/week-3/socketexamples/SocketClientSingleThreaded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/week-3/SocketClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/week-3/socketexamples/SocketClientThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/week-3/SocketHandlerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/week-3/socketexamples/SocketHandlerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/week-3/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/week-3/socketexamples/SocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/week-3/socketexamples/SocketClientMultithreaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/week-3/socketexamples/SocketClientMultithreaded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bsds-6650/socketexamples/SocketClientMultithreaded.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bsds-6650/socketexamples/SocketClientMultithreaded.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,35 +24,36 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="408" />
+          <entry key="java" value="629" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="408" />
+          <entry key="JAVA" value="629" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.6369478">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/week-3/socketexamples/ActiveCount.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -68,8 +66,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/code/week-3/socketexamples/SocketClientMultithreaded.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+                <state relative-caret-position="315">
+                  <caret line="67" column="86" selection-start-line="67" selection-start-column="86" selection-end-line="67" selection-end-column="86" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -78,9 +76,18 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="122">
+                  <caret line="206" column="70" lean-forward="true" selection-start-line="206" selection-start-column="70" selection-end-line="206" selection-end-column="70" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/CyclicBarrier.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="167">
+                <state relative-caret-position="3870">
                   <caret line="292" column="11" selection-start-line="292" selection-start-column="11" selection-end-line="292" selection-end-column="11" />
                   <folding>
                     <element signature="e#9581#9582#0" expanded="true" />
@@ -93,7 +100,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/week-3/socketexamples/SocketClientSingleThreaded.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
+                <state relative-caret-position="134">
                   <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
                 </state>
               </provider>
@@ -102,8 +109,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/week-3/socketexamples/SocketClientThread.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="456">
-                  <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+                <state relative-caret-position="353">
+                  <caret line="47" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="167">
+                  <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -129,7 +145,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="712">
+                <state relative-caret-position="1500">
                   <caret line="127" column="17" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="17" />
                 </state>
               </provider>
@@ -138,15 +154,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/code/week-3/socketexamples/SocketClientSingleThreaded.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="238">
+                  <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -177,8 +190,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="202" />
     <option name="width" value="1440" />
     <option name="height" value="878" />
   </component>
@@ -190,9 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,12 +237,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569372671488" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569621236831" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -315,15 +328,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569368978938</updated>
-      <workItem from="1569368980609" duration="3642000" />
+      <workItem from="1569368980609" duration="4747000" />
+      <workItem from="1569456028460" duration="3533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3642000" />
+    <option name="totallyTimeSpent" value="8280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="878" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -331,7 +345,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.10801145" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.10944206" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="CheckStyle" order="1" />
@@ -368,13 +382,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/week-3/socketexamples/SocketHandlerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/week-3/socketexamples/ActiveCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -384,12 +391,26 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/CyclicBarrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="3870">
           <caret line="292" column="11" selection-start-line="292" selection-start-column="11" selection-end-line="292" selection-end-column="11" />
           <folding>
             <element signature="e#9581#9582#0" expanded="true" />
             <element signature="e#9616#9617#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/week-3/socketexamples/SocketHandlerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="127" column="17" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -400,31 +421,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="127" column="17" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/week-3/socketexamples/SocketClientThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="167">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/week-3/socketexamples/SocketClientSingleThreaded.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="134">
           <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/week-3/socketexamples/SocketClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="47" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="206" column="70" lean-forward="true" selection-start-line="206" selection-start-column="70" selection-end-line="206" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/week-3/socketexamples/SocketClientMultithreaded.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="315">
+          <caret line="67" column="86" selection-start-line="67" selection-start-column="86" selection-end-line="67" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

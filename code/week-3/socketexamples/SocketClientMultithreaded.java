@@ -17,6 +17,7 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -26,7 +27,7 @@ public class SocketClientMultithreaded {
 
   public static void main(String[] args) {
     String hostName;
-    final int MAX_THREADS = 56;
+    final int MAX_THREADS = 50;
     int port;
 
     if (args.length == 2) {
@@ -38,15 +39,10 @@ public class SocketClientMultithreaded {
     }
     barrier = new CyclicBarrier(MAX_THREADS + 1);
 
-    SocketClientThread[] ss = new SocketClientThread[MAX_THREADS];
-
-
-    // TO DO create and start MAX_THREADS
+    ExecutorService executorService = Executors.newFixedThreadPool(MAX_THREADS);
     for(int i = 0; i < MAX_THREADS; i++) {
-      ss[i] = new SocketClientThread(hostName, port, barrier);
-      ss[i].start();
+      executorService.submit(new SocketClientThread(hostName, port, barrier));
     }
-
 
     // TO DO wait for all threads to complete
     try {
@@ -59,6 +55,17 @@ public class SocketClientMultithreaded {
 
     System.out.println("Terminating ....");
 
+    executorService.shutdown();
+    long startTime = System.nanoTime();
+    try {
+      executorService.awaitTermination(Long.MAX_VALUE, TimeUnit.NANOSECONDS);
+    } catch (InterruptedException e) {
+      //
+    }
+    long endTime = System.nanoTime();
+
+    long duration = (endTime - startTime);  //divide by 1000000 to get milliseconds.
+    System.out.println("Terminated. It takes " + duration + " nanoseconds to terminate");
   }
 
 
