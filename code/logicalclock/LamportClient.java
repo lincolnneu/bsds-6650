@@ -80,10 +80,15 @@ public class LamportClient implements Runnable {
         System.out.println("Process " + pid + " complete. Here's my view of the order of events");
 
         // TO DO add your code here to output results
+        this.safePrintln(events);
 
+    }
 
-
-
+    public synchronized void safePrintln(ArrayList<String> events) {
+        for(String ev : events) {
+            System.out.println(ev);
+        }
+        System.out.println("----------event log print done for PID: " + this.pid);
     }
 
 }
