@@ -27,7 +27,7 @@ public class SocketClientMultithreaded {
 
   public static void main(String[] args) {
     String hostName;
-    final int MAX_THREADS = 50;
+    final int MAX_THREADS = 120;
     int port;
 
     if (args.length == 2) {
